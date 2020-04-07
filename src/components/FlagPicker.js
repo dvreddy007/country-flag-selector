@@ -124,7 +124,7 @@ class CountryFlagPicker extends Component {
 resetForm = () => {
    this.setState({
      currflag:[],
-     showCCodeStep: true
+     showCCodeStep: false
    }
    );
  }
