@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #ccebf6;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.wrapper{
+  min-height: 100vh;  
+  display: flex;
+  flex-direction: column;
+}
+.header, .footer{
+  height: 85px;
+  background: #ccebf6;   
+  padding: 10px;
+}
+.title{
+	font-size: 25px;
+	color: #14a8d6;
+}
+
+.subtitle{
+	font-size: 18px;
+}
+.content {
+  display: flex;
+  flex: 1;  
+  color: #000; 
+}
+.columns{
+  display: flex;
+  flex:1;
+}
+.sidebar-first{
+  flex: 1;
+  width: 30%;  
+  order: 1;
+  padding:15px;
+}
+.sidebar-second{ 
+  width: 30%;
+  order: 2;  
+  padding:15px;
+}
+.sidebar-three{ 
+  width: 30%;
+  order: 3;  
+  padding:15px;
+}
+
+/* drawing object lists */
+.iofuncdiv{
+	/*display: -webkit-inline-box;*/
+	margin: 25px 0px;
+}
+.box{
+    width:100px;
+    /* position: absolute ; */
+    text-align: center;
+	margin:25px 0px;    
+}
+.box.one{
+   left:0px; 
+   top: 5%;
+}
+.box.two{
+    padding: 15px;
+    margin:0 10px;
+    min-height: 95%;
+}
+
+.box.three{
+ 	padding: 15px;
+    margin:0 10px;
+    min-height: 95%;
+}
+.row + .row{
+    margin-top:50%;
+}
+.function-wraper{
+  /*  width:450px;
+    display:inline-block; */
+    padding: 10px;
+    
+}
+.outputfunctions,.inputfunctions{
+    /* border-bottom: 2px dashed darkgray; */
+    margin:5px 2px;
+    padding: 5px;
+}
+.outputfunctions.toTcms{
+    /* left: 140px; */
+    margin:10px 0px;
+}
+.outputfunctions.fromTcms{
+    /* right:150px; */
+    margin:10px 0px;
+}
+.box.outputfunctions{
+    width:250px;
+}
+.outputfunctions ul, .outputfunctions li{
+    margin:5px 0px;
+    padding:0px;
+    list-style-type: none;
+    text-align: center;
+    font-size:14px;
+    font-weight:400;
+}
+/* arrow css */
+.input,.output{
+   /* width:200px;
+    display:inline-table; */
+    border:2px solid #404040;
+}
+
+.iobox{
+	padding:15px; top: 0px; height: 120px;
+}
+  .contet-wrapper{
+    width:1000px;
+    margin:10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    border:1px solid #000;
+  }
+  .requirement-wrapper{   
+    margin:0 auto;
+  }
+  .system{
+    min-height: 100px;
+   }
+  .sysyte-function-wraper{
+    display: flex;
+    justify-content: space-between;
+  }
+  .system-name{
+    width:35%;
+    border:1px solid red;
+  }
+  .system-fnlist{
+    width:65%;
+    border-bottom: 2px dashed darkgray;
+    margin:5px 2px;
+    padding: 5px;
+    position: relative;
+  }
+  .system.one{
+    width:385px;
+    
+  }
+  .system.two{
+    width:200px;
+    border:1px solid #ECE;
+  }
+  .system.three{
+    width:400px;
+    
+  }
+  .svgwidth{
+	width:100%;
+  }

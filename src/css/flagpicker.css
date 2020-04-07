@@ -1,0 +1,93 @@
+
+.dropdowncontinent{    
+    color: black;    
+    background-color: #f9f9f9;
+    cursor:pointer;
+    width: 245px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-decoration: none;
+    display: block;
+    /*border: 1px solid #ccc;*/
+    border-radius: 2px;
+    text-align:left;
+    padding: 0px;
+    margin-left: 23%;
+}
+.continent{
+  border: 1px solid #ccc;
+  padding: 8px;
+  margin: 0px;
+}
+.country:hover{
+  background-color: #0090c1;
+  color:#fff;
+}
+.continent:hover{
+  background-color: #0090c1;
+  color:#fff;
+}
+.continentText{  
+}
+.continentSelected{
+  font-size: 30px;  
+}
+input[type=text]{
+  width: 225px;
+  height: 15px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-style: inset;
+}
+/*.Step2{
+  position: absolute;
+  top: 5f0px;
+  display: block;
+
+  margin-left: 610px;
+}*/
+
+.dropdowncountry{  
+  color: black;
+  background: #fff;
+  cursor:pointer;
+  width: 245px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  text-decoration: none;
+  display: block;  
+  border-radius: 0px;
+  text-align:left; 
+  margin-left: 20%;
+
+}
+.flagText{
+  /*font-size: 15px;
+  position: absolute;
+  margin-left: 1150px;
+  top: 50px;
+  display: block;*/
+}
+.country{
+  padding: 5px;  
+  border: 1px solid #ccc;
+}
+.flag{
+  font-size: 20px;
+  margin: 0 8px;
+  padding: 0 5px;
+}
+.button{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  background: #14a8d6;
+  border-radius: 8px;
+  color: #fff;
+  border: none;
+   padding: 10px 15px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+
+   cursor: pointer;
+}
