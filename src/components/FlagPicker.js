@@ -16,9 +16,6 @@ let continentArr = [];
 let initialflag = "";
 let showCStep = false;
 let showCCodeStep = false;
-
-
-
 class CountryFlagPicker extends Component {
   constructor(props) {
     super(props);
@@ -48,29 +45,26 @@ class CountryFlagPicker extends Component {
   }
   setContinent(event) {
     let continent_to_be_set = event.target.getAttribute("continent_val");
-    contArr = []
-    for(let i in ALLDATA){
-      //console.log(obj)
+    contArr = []    
+    for(let i in ALLDATA){      
       if(ALLDATA[i].continent === continent_to_be_set){
         continentArr.push(continent_to_be_set)
-        COUNTRIES = ALLDATA[i].countries;
-        console.log(COUNTRIES)
+        COUNTRIES = ALLDATA[i].countries;        
         for(let j in COUNTRIES){        
          const name = COUNTRIES[j].name;
-          contArr.push(name)
-          console.log(contArr)
+          contArr.push(name)          
         }
       }
     }
     this.setState({
-      final_continent: continent_to_be_set,
+      final_continent: continent_to_be_set,      
       showCStep: true
     });
   }
   handleContinentChange(event) {
     let curr_value = event.target.value;     
     this.setState({
-      continent: curr_value
+      continent: curr_value,      
     }, ()=> {
       this.generateContinentDropDown(curr_value);
     })
@@ -80,8 +74,7 @@ class CountryFlagPicker extends Component {
     this.setState({
       country: curr_contr_value
     }, () => {
-      this.createCountryList(curr_contr_value);
-      console.log(this.state.country);
+      this.createCountryList(curr_contr_value);      
     });
   }
   createCountryList(value) {
@@ -98,14 +91,9 @@ class CountryFlagPicker extends Component {
   }  
   setCountry(event) {
     let country_to_be_set = event.target.getAttribute("country_val");
-
     let continent = continentArr[0]
-    
-    for(let i in ALLDATA){
-      //console.log(obj)
-      if(ALLDATA[i].continent === continent){
-        //COUNTRIES = ALLDATA[i].countries;
-        //console.log(country_to_be_set)
+    for(let i in ALLDATA){      
+      if(ALLDATA[i].continent === continent){        
         for(let j in COUNTRIES){
           if(COUNTRIES[j].name === country_to_be_set){                      
             appendFlag.push(COUNTRIES[j].flag) 
@@ -118,18 +106,14 @@ class CountryFlagPicker extends Component {
     this.setState({          
       currflag: appendFlag.map(item => item.toLowerCase()),
       showCCodeStep: true
-  })  
-   console.log(this.state.currflag)
+  })   
 }
 resetForm = () => {
    this.setState({
-     currflag:[],
-     showCCodeStep: true
-   }
-   );
+     currflag: [],
+     showCCodeStep: false
+   });
  }
-
-
 render() {
   return (
     <div className="wrapper">  
@@ -161,7 +145,7 @@ render() {
         <aside className="sidebar-three" style={this.state.showCCodeStep ? {visibility:'visible'}:{visibility:'hidden'}}>
           <div className = "flagText">
               <h1> Selected Flags: </h1>
-              <div className="flag">{this.state.currflag.map(code => <ShowImage ccode={code.toLowerCase()}/>)} {this.state.currflag}</div>
+              <div className="flag">{this.state.currflag.map(code => <ShowImage ccode={code.toLowerCase()}/>)}</div>
               <button className ="button" onClick={this.resetForm}>Clear flags</button>
             </div>
         </aside>

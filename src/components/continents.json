@@ -4,23 +4,23 @@
 		"countries": [
 			{
 				"name": "Nigeria",
-				"flag": "🇳🇬"
+				"flag": "ng"
 			},
 			{
 				"name": "Ethiopia",
-				"flag": "🇪🇹"
+				"flag": "et"
 			},
 			{
 				"name": "Egypt",
-				"flag": "🇪🇬"
+				"flag": "eg"
 			},
 			{
 				"name": "DR Congo",
-				"flag": "🇨🇩"
+				"flag": "cd"
 			},
 			{
 				"name": "South Africa",
-				"flag": "🇿🇦"
+				"flag": "za"
 			}
 		]
 	},
@@ -29,23 +29,23 @@
 		"countries": [
 			{
 				"name": "USA",
-				"flag": "🇺🇸"
+				"flag": "us"
 			},
 			{
 				"name": "Brazil",
-				"flag": "🇧🇷"
+				"flag": "br"
 			},
 			{
 				"name": "Mexico",
-				"flag": "🇲🇽"
+				"flag": "mx"
 			},
 			{
 				"name": "Colombia",
-				"flag": "🇨🇴"
+				"flag": "co"
 			},
 			{
 				"name": "Argentina",
-				"flag": "🇦🇷"
+				"flag": "ar"
 			}
 		]
 	},
@@ -54,23 +54,23 @@
 		"countries": [
 			{
 				"name": "China",
-				"flag": "🇨🇳"
+				"flag": "cn"
 			},
 			{
 				"name": "India",
-				"flag": "🇮🇳"
+				"flag": "in"
 			},
 			{
 				"name": "Indonesia",
-				"flag": "🇮🇩"
+				"flag": "id"
 			},
 			{
 				"name": "Pakistan",
-				"flag": "🇵🇰"
+				"flag": "pk"
 			},
 			{
 				"name": "Bangladesh",
-				"flag": "🇧🇩"
+				"flag": "bd"
 			}
 		]
 	},
@@ -79,23 +79,23 @@
 		"countries": [
 			{
 				"name": "Russia",
-				"flag": "🇷🇺"
+				"flag": "ru"
 			},
 			{
 				"name": "Germany",
-				"flag": "🇩🇪"
+				"flag": "de"
 			},
 			{
 				"name": "UK",
-				"flag": "🇬🇧"
+				"flag": "gb"
 			},
 			{
 				"name": "France",
-				"flag": "🇫🇷"
+				"flag": "fr"
 			},
 			{
 				"name": "Italy",
-				"flag": "🇮🇹"
+				"flag": "it"
 			}
 		]
 	},
@@ -104,23 +104,23 @@
 		"countries": [
 			{
 				"name": "Australia",
-				"flag": "🇦🇺"
+				"flag": "au"
 			},
 			{
 				"name": "Papua New Guinea",
-				"flag": "🇵🇬"
+				"flag": "pg"
 			},
 			{
 				"name": "New Zealand",
-				"flag": "🇳🇿"
+				"flag": "nz"
 			},
 			{
 				"name": "Fiji",
-				"flag": "🇫🇯"
+				"flag": "fj"
 			},
 			{
 				"name": "Solomon Islands",
-				"flag": "🇸🇧"
+				"flag": "sb"
 			}
 		]
 	}

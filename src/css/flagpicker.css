@@ -1,4 +1,7 @@
-
+.svgImg{
+  width: 1em;
+  margin: 0 5px;
+}
 .dropdowncontinent{    
     color: black;    
     background-color: #f9f9f9;
@@ -33,7 +36,7 @@
   font-size: 30px;  
 }
 input[type=text]{
-  width: 225px;
+  width: 17em;
   height: 15px;
   padding: 8px;
   border: 1px solid #ccc;
