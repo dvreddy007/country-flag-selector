@@ -110,10 +110,10 @@ class CountryFlagPicker extends Component {
 }
 resetForm = () => {
    this.setState({
-     currflag: [],
-     showCCodeStep: false
+   currflag:[],
+   showCCodeStep: false
    });
- }
+}
 render() {
   return (
     <div className="wrapper">  
